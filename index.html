@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu container">
+        <a href="#" class="logo">Bienvenido</a>
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+          <img src="images/menu.png" class="menu-icono" alt="" />
+        </label>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#">SERVICIO</a></li>
+            <li><a href="#">PRODUCTO</a></li>
+            <li><a href="#">OPCIONES</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=56942475218">CONTACTO</a></li>
+          </ul>
+        </nav>
+        <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+
+      <div class="header-content container">
+        <div class="header-txt">
+          <h1>Elige la opcion que mas te acomode</h1>
+          <p>
+           Bienvenido, aca te damos algunas opciones para que puedas mejorar tu emprendimiento. Igual te invitamos a 
+           seguirnos por nuestras redes sociales donde estaremos actualizando nuestras mejoras en tiempo real.
+          </p>
+          <a href="#" class="btn-1">Seccion menu</a>
+        </div>
+      </div>
+
+      <div class="images">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/emprendedores-1.jpg" alt="">
+              <h3>Crea tu Pyme</h3>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/emprendedores-2.jpg" alt="">
+              <h3>Calcula tus Impuestos</h3>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/emprendedores-3.jpg" alt="">
+              <h3>Extiende tu Imagen</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rows">
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+      </div>
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
